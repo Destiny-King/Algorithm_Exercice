@@ -11,7 +11,8 @@ using namespace std;
 
 class Binary {
 public:
-  int search(vector<int> &nums, int target);
+  int search_LeftClosed_RightClosed(vector<int> &nums, int target); //左闭右闭
+  int search_LeftClosed_RightOpened(vector<int> &nums, int target); //左闭右开
 };
 
 #endif // ARRAY_BINARY_H
