@@ -12,6 +12,10 @@ set(CMAKE_CXX_STANDARD 14)
 #        RemoveElements/RemoveElements.cpp RemoveElements/RemoveElements.h
 #        RemoveElements/main.cpp)
 
+#add_executable(Array
+#        ArraySquare/main.cpp
+#        ArraySquare/ArraySquare.cpp ArraySquare/ArraySquare.h)
+
 add_executable(Array
-        ArraySquare/main.cpp
-        ArraySquare/ArraySquare.cpp ArraySquare/ArraySquare.h)
+        MinLengthArray/main.cpp
+        MinLengthArray/MinLengthArray.cpp MinLengthArray/MinLengthArray.h)
