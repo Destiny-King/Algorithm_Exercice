@@ -17,10 +17,6 @@ int RemoveElements::removeElement_Violent(vector<int> &nums, int val) {
       size--; //数组的大小-1
     }
   }
-  for (int k = 0; k < size; ++k) {
-    cout << nums[k] << " ";
-  }
-  cout << endl;
   return size;
 }
 
