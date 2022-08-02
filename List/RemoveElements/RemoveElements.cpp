@@ -5,52 +5,23 @@
 #include "RemoveElements.h"
 
 //初始化链表
-void RemoveElements::initList(LinkList &list) {
-  //初始化生成单链表
-  ListNode *p, *q;
-  //创建头结点
-  list = (LinkList)malloc(sizeof(LinkList));
-  list->next = NULL;
-  p = list;
-  //开始生成单链表(尾插法)
-  /*for (int i = 0; i < 7; ++i) {
-    q = (LinkList)malloc(sizeof(LinkList));
-    q->val = i;
-    p->next = q;
-    p = q;
-    p->next = NULL;
-  }*/
+void RemoveElements::initList(ListNode *head) {
+  vector<int> nums = {1, 4, 2, 4, 3, 4}; //待创建链表的数值内容
 
-  q = (LinkList)malloc(sizeof(LinkList));
-  q->val = 1;
-  p->next = q;
-  p = q;
-  p->next = NULL;
-
-  q = (LinkList)malloc(sizeof(LinkList));
-  q->val = 4;
-  p->next = q;
-  p = q;
-  p->next = NULL;
-
-  q = (LinkList)malloc(sizeof(LinkList));
-  q->val = 2;
-  p->next = q;
-  p = q;
-  p->next = NULL;
-
-  q = (LinkList)malloc(sizeof(LinkList));
-  q->val = 4;
-  p->next = q;
-  p = q;
-  p->next = NULL;
+  ListNode *cur = head;
+  for (int i = 1; i < nums.size(); ++i) { //通过循环把数组里的值依次放到链表
+    ListNode *newNode = new ListNode(nums[i]); //创建新节点并赋值
+    cur->next = newNode; //上一个节点的next指向这个新建的节点
+    cur = newNode;       //保留新节点
+  }
 }
 
 //显示链表
-void RemoveElements::showList(LinkList &list) {
-  LinkList p;
-  for (p = list->next; p != NULL; p = p->next) {
-    cout << p->val << " ";
+void RemoveElements::showList(ListNode *head) {
+  ListNode *cur = head;
+  while (cur != NULL) { //为NULL则节点输出结束
+    cout << cur->val << " ";
+    cur = cur->next;
   }
   cout << endl;
 }
@@ -91,8 +62,8 @@ ListNode *RemoveElements::removeElements_virtualNode(ListNode *head, int val) {
     } else {
       cur = cur->next;
     }
-    head = dummyHead->next;
-    delete dummyHead;
-    return head;
   }
+  head = dummyHead->next;
+  delete dummyHead;
+  return head;
 }

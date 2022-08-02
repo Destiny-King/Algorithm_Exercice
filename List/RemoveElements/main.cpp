@@ -7,7 +7,7 @@ int main() {
   system("chcp 65001");
 
   //数据初始化
-  LinkList head;
+  ListNode *head = new ListNode(1);
   int val = 4;
 
   //对象实例化

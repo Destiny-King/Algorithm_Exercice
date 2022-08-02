@@ -16,6 +16,8 @@
 
 2.1 移除链表元素：removeElements
 
+2.2 设计链表：DesignList
+
 
 
 
