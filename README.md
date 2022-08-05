@@ -22,7 +22,7 @@
 
 2.4 交换链表：SwapPairsList
 
-
+2.5 删除链表的倒数第N个节点：RemoveNthFromEnd
 
 
 
