@@ -24,7 +24,7 @@
 
 2.5 删除链表的倒数第N个节点：RemoveNthFromEnd
 
-
+2.6 相交链表：IntersectList
 
 
 
