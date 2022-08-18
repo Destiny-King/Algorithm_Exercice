@@ -59,7 +59,7 @@ ListNode *DetectCycle::detectCycle(ListNode *head) {
     //快慢指针相遇
     if (slow == fast) {
       ListNode *index1 = fast;
-      ListNode *index2 = slow;
+      ListNode *index2 = head;
 
       while (index1 != index2) {
         index1 = index1->next;
