@@ -26,7 +26,7 @@
 
 2.6 相交链表：IntersectList
 
-
+2.7 环形链表：DetectCycle
 
 
 
