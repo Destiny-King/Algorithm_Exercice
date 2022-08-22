@@ -8,6 +8,7 @@
 bool Anagram::isAnagram(string s, string t) {
   int record[26] = {0};
   for (int i = 0; i < s.size(); ++i) {
+    //求出一个相对数值
     record[s[i] - 'a']++;
   }
 
