@@ -3,4 +3,4 @@ project(Hash)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(ArrayIntersection)
+add_subdirectory(HappyNum)
