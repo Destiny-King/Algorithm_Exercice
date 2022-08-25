@@ -38,9 +38,9 @@
 
 3.4 两数之和：TwoSum
 
+3.5 四数相加：FourSumCount
 
-
-
+3.6 赎金信：CanConstruct
 
 
 
