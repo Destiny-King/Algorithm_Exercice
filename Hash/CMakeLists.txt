@@ -3,4 +3,4 @@ project(Hash)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(CanConstruct)
+add_subdirectory(ThreeSum)
