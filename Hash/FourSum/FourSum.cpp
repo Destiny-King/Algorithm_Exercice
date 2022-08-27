@@ -32,9 +32,10 @@ vector<vector<int>> FourSum::fourSum(vector<int> &nums, int target) {
       int left = i + 1;
       int right = nums.size() - 1;
       while (right > left) {
-        if (nums[k] + nums[i] + nums[left] + nums[right] > target) {
+        if ((long)nums[k] + nums[i] + nums[left] + nums[right] > target) {
           right--;
-        } else if (nums[k] + nums[i] + nums[left] + nums[right] < target) {
+        } else if ((long)nums[k] + nums[i] + nums[left] + nums[right] <
+                   target) {
           left++;
         } else {
           result.push_back(
