@@ -42,9 +42,9 @@
 
 3.6 赎金信：CanConstruct
 
+3.7 三数之和：ThreeSum
 
-
-
+3.8 四数之和：FourSum
 
 
 
