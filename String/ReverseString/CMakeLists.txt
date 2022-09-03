@@ -1,3 +1,3 @@
-add_executable(List
+add_executable(String
         main.cpp
         reverseString.cpp reverseString.h)
