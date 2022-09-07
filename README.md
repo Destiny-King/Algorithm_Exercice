@@ -55,3 +55,5 @@
 4.3 替换空格：ReplaceSpace
 
 4.4 翻转字符串里的单词：FlipString
+
+4.5 左旋转字符串：LeftRotatedStr
