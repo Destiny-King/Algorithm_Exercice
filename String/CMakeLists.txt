@@ -3,4 +3,4 @@ project(String)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(LeftRotatedStr)
+add_subdirectory(StrStr)
