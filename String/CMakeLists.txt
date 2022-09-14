@@ -3,4 +3,4 @@ project(String)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(StrStr)
+add_subdirectory(RepeatedSubstringPattern)

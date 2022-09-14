@@ -59,3 +59,30 @@
 4.5 左旋转字符串：LeftRotatedStr
 
 4.6 实现strStr：strStr
+
+4.7 重复的子字符串：RepeatedSubstringPattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
