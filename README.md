@@ -66,7 +66,7 @@
 
 5.1 用栈实现队列：StacksToQueues
 
-
+5.2 用队列实现栈：QueuesToStacks
 
 
 
