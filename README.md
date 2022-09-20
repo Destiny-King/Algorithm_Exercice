@@ -70,7 +70,7 @@
 
 5.3 有效的字符串：ValidParentheses
 
-
+5.4 删除字符串中的所有相邻重复项：DeleteAdjacentDuplicates
 
 
 

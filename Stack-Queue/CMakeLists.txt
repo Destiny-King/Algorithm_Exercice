@@ -3,4 +3,4 @@ project(Stack-Queue)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(ValidParentheses)
+add_subdirectory(DeleteAdjacentDuplicates)
