@@ -3,4 +3,4 @@ project(Stack-Queue)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(EvalRPN)
+add_subdirectory(SlideWindowMax)

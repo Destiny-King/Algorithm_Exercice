@@ -72,9 +72,9 @@
 
 5.4 删除字符串中的所有相邻重复项：DeleteAdjacentDuplicates
 
+5.5 逆波兰表达式求值：EvalRPN
 
-
-
+5.6 滑动窗口最大值：SlideWindowMax
 
 
 
