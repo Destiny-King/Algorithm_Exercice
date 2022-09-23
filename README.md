@@ -76,9 +76,11 @@
 
 5.6 滑动窗口最大值：SlideWindowMax
 
+5.7 前K个高频元素：HighFrequencyElements
 
+### 10.单调栈
 
-
+10.1 每日温度：DailyTemperature
 
 
 
