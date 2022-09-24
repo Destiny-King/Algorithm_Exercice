@@ -3,4 +3,4 @@ project(Monotonous-Stack)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(DailyTemperature)
+add_subdirectory(NextBiggerElement)
