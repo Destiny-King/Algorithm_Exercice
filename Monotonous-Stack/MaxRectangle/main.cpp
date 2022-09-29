@@ -15,5 +15,8 @@ int main() {
   int ret2 = maxRectangle.largestRectangleArea_DynamicProgramming(nums);
   cout << "动态规划法: " << ret2 << endl;
 
+  int ret3 = maxRectangle.largestRectangleArea_MonotonousStack(nums);
+  cout << "单调栈法: " << ret3 << endl;
+
   return 0;
 }
