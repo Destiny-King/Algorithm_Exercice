@@ -82,7 +82,9 @@
 
 6.1 二叉树的递归遍历：RecursiveTraversal
 
+6.2 二叉树的迭代遍历：IterationTraversal
 
+6.3 二叉树的层序遍历：SequenceTraversal
 
 ### 10.单调栈
 
