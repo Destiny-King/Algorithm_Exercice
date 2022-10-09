@@ -86,6 +86,12 @@
 
 6.3 二叉树的层序遍历：SequenceTraversal
 
+6.4 翻转二叉树：FlipBinaryTree
+
+### 7.回溯算法
+
+7.1 组合问题：Combination
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
