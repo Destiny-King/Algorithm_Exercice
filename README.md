@@ -88,9 +88,13 @@
 
 6.4 翻转二叉树：FlipBinaryTree
 
+6.5 对称二叉树：SymmetricBinaryTree
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
+
+7.2 组合总和III：CombinationTotal
 
 ### 10.单调栈
 
