@@ -90,6 +90,10 @@
 
 6.5 对称二叉树：SymmetricBinaryTree
 
+6.6 二叉树的最大深度：MaxDepthBinaryTree
+
+6.7 二叉树的最小深度：MinDepthBinaryTree
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
