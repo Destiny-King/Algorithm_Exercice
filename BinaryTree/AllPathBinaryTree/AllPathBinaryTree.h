@@ -2,8 +2,8 @@
 // Created by Destiny on 2022/10/17.
 //
 
-#ifndef BINARYTREE_BALANTBINARYTREE_H
-#define BINARYTREE_BALANTBINARYTREE_H
+#ifndef BINARYTREE_ALLPATHBINARYTREE_H
+#define BINARYTREE_ALLPATHBINARYTREE_H
 
 #include <iostream>
 using namespace std;
@@ -18,11 +18,14 @@ struct TreeNode {
   TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-class BalantBinaryTree {
+class AllPathBinaryTree {
+private:
+  void traversal(TreeNode *cur, vector<int> &path, vector<string> &result);
+
 public:
   TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
-  int getHeight(TreeNode *node);
-  bool isBalanced(TreeNode *root);
+  vector<string> binaryTreePaths(TreeNode *root);
+  vector<string> binaryTreePaths_Interation(TreeNode *root);
 };
 
-#endif // BINARYTREE_BALANTBINARYTREE_H
+#endif // BINARYTREE_ALLPATHBINARYTREE_H
