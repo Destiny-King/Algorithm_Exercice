@@ -94,6 +94,10 @@
 
 6.7 二叉树的最小深度：MinDepthBinaryTree
 
+6.8 完全二叉树的节点个数：NodeNumBinaryTree
+
+6.9 平衡二叉树：BalantBinaryTree
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
