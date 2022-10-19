@@ -110,6 +110,10 @@
 
 7.3 电话号码的字母组合：CombinationPhoneNumbers
 
+7.4 组合总和：CombinationTotal2
+
+7.5 组合总和II：CombinationTotal3
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature

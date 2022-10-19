@@ -3,6 +3,7 @@
 //
 
 #include "CombinationTotal2.h"
+#include <algorithm>
 
 void CombinationTotal2::backtracking(vector<int> &candidates, int target,
                                      int sum, int startIndex) {
@@ -25,6 +26,7 @@ vector<vector<int>> CombinationTotal2::combinationSum(vector<int> &candidates,
                                                       int target) {
   result.clear();
   path.clear();
+  sort(candidates.begin(), candidates.end());
   backtracking(candidates, target, 0, 0);
   return result;
 }
