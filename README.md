@@ -114,6 +114,10 @@
 
 7.5 组合总和II：CombinationTotal3
 
+7.6 分割回文串：SplitPalindromeStr
+
+7.7 复原IP地址：RecoveryIpAddress
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
