@@ -3,4 +3,4 @@ project(DistributionAlgorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(DistributionBiscuits)
+add_subdirectory(SwingSequence)
