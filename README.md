@@ -118,6 +118,12 @@
 
 7.7 复原IP地址：RecoveryIpAddress
 
+7.8 子集问题：Subset
+
+### 8.贪心算法
+
+8.1 分发饼干：DistributionBiscuits
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
