@@ -124,6 +124,10 @@
 
 8.1 分发饼干：DistributionBiscuits
 
+8.2 摆动序列：SwingSequence
+
+8.3 最大子序和：MaxSubSum
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature

@@ -3,4 +3,4 @@ project(DistributionAlgorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(SwingSequence)
+add_subdirectory(MaxSubSum)
