@@ -128,6 +128,12 @@
 
 8.3 最大子序和：MaxSubSum
 
+8.4 买卖股票：TradeStocks
+
+### 9.动态规划
+
+9.1 斐波那契：Fibonacci
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
