@@ -134,6 +134,10 @@
 
 9.1 斐波那契：Fibonacci
 
+9.2 爬楼梯：ClimbStairs
+
+9.3 最小花费爬楼梯：MinCostClimbingStairs
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
