@@ -138,6 +138,10 @@
 
 9.3 最小花费爬楼梯：MinCostClimbingStairs
 
+9.4 不同路径：DifferentPaths
+
+9.5 不同路径II：UniquePathsWithObstacles
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature

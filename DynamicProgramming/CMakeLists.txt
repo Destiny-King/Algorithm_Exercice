@@ -3,4 +3,4 @@ project(DynamicProgramming)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(DifferentPaths)
+add_subdirectory(UniquePathsWithObstacles)
