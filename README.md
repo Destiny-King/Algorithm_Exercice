@@ -142,6 +142,10 @@
 
 9.5 不同路径II：UniquePathsWithObstacles
 
+9.6 整数拆分：IntegerSplit
+
+9.7 不同的二叉搜索树：BinarySearchTree
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
