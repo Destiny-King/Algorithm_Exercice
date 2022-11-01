@@ -12,6 +12,7 @@ int main() {
   vector<int> value = {15, 20, 30};
   int bagweight = 4;
   bagProblem.bagProblem(weight, value, bagweight);
+  bagProblem.bagProblem2(weight, value, bagweight);
 
   return 0;
 }

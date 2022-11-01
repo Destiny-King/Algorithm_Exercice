@@ -12,6 +12,7 @@ using namespace std;
 class BagProblem {
 public:
   void bagProblem(vector<int> weight, vector<int> value, int bagweight);
+  void bagProblem2(vector<int> weight, vector<int> value, int bagWeight);
 };
 
 #endif // DYNAMICPROGRAMMING_BAGPROBLEM_H
