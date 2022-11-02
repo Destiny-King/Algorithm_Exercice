@@ -130,6 +130,10 @@
 
 8.4 买卖股票：TradeStocks
 
+8.5 跳跃游戏：JumpGames
+
+8.6 跳跃游戏II：JumpGames2
+
 ### 9.动态规划
 
 9.1 斐波那契：Fibonacci
