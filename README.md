@@ -134,6 +134,8 @@
 
 8.6 跳跃游戏II：JumpGames2
 
+8.7 K次取反后最大化的数组和：LargestSumAfterKNegations
+
 ### 9.动态规划
 
 9.1 斐波那契：Fibonacci
