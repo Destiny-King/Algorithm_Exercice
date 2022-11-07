@@ -14,5 +14,11 @@ int main() {
   TreeNode *ret = constructBinaryTree.buildTree(inorder, postorder);
   cout << ret->val << endl;
 
+  //前序
+  vector<int> inorder2 = {9, 3, 15, 20, 7};
+  vector<int> preorder = {3, 9, 20, 15, 7};
+  TreeNode *ret2 = constructBinaryTree.buildTree_Pre(inorder, preorder);
+  cout << ret2->val << endl;
+
   return 0;
 }

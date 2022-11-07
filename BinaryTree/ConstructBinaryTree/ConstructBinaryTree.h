@@ -23,9 +23,13 @@ private:
   TreeNode *traversal(vector<int> &inorder, int inorderBegin, int inorderEnd,
                       vector<int> &postorder, int postorderBegin,
                       int postorderEnd);
+  TreeNode *traversal_Pre(vector<int> &inorder, int inorderBegin,
+                          int inorderEnd, vector<int> &preorder,
+                          int preorderBegin, int preorderEnd);
 
 public:
   TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder);
+  TreeNode *buildTree_Pre(vector<int> &inorder, vector<int> &preorder);
 };
 
 #endif // BINARYTREE_CONSTRUCTBINARYTREE_H

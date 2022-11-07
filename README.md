@@ -104,6 +104,8 @@
 
 6.12 找树左下角的值：FindBottomLeftValue
 
+6.13 从中序与后序遍历序列构造二叉树：ConstructBinaryTree
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
