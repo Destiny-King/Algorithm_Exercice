@@ -8,9 +8,8 @@ int main() {
 
   BalantBinaryTree balantBinaryTree;
 
-  vector<int> nums = {3, 9, 20, NULL, NULL, 15, 7};
-  TreeNode *root = balantBinaryTree.initBTree(nums, nums.size());
-  cout << "头节点: " << root->val << endl;
+  vector<int> nums = {1, 2, 2, 3, 3, NULL, NULL, 4, 4};
+  TreeNode *root = balantBinaryTree.createBTree(nums, 0);
 
   //递归法
   bool b = balantBinaryTree.isBalanced(root);

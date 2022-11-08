@@ -9,7 +9,7 @@ int main() {
   SymmetricBinaryTree symmetricBinaryTree;
 
   vector<int> nums = {1, 2, 2, 3, 4, 4, 3};
-  TreeNode *root = symmetricBinaryTree.initBTree(nums, nums.size());
+  TreeNode *root = symmetricBinaryTree.createBTree(nums, 0);
 
   bool b = symmetricBinaryTree.isSymmetric(root);
   if (b == 0) {

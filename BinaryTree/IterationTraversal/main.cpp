@@ -9,8 +9,7 @@ int main() {
   IterationTraversal iterationTraversal;
 
   vector<int> nums = {1, 2, 3};
-  TreeNode *root = iterationTraversal.initBTree(nums, nums.size());
-  cout << "头节点: " << root->val << endl;
+  TreeNode *root = iterationTraversal.createBTree(nums, 0);
 
   //前序遍历
   vector<int> ret = iterationTraversal.preorderTraversal(root);

@@ -7,8 +7,6 @@
 
 #include <iostream>
 using namespace std;
-#include <queue>
-#include <stack>
 #include <vector>
 
 struct TreeNode {
@@ -20,7 +18,7 @@ struct TreeNode {
 
 class BalantBinaryTree {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //创建二叉树
   int getHeight(TreeNode *node);
   bool isBalanced(TreeNode *root);
 };

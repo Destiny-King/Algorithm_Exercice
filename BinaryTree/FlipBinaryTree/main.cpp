@@ -9,9 +9,7 @@ int main() {
   FlipBinaryTree flipBinaryTree;
 
   vector<int> nums = {1, 2, 3, 4, 5, 6, 7};
-  TreeNode *root = flipBinaryTree.initBTree(nums, nums.size());
-  cout << "头节点: " << root->val << endl;
-
+  TreeNode *root = flipBinaryTree.createBTree(nums, 0);
   //递归法
   TreeNode *node = flipBinaryTree.invertTree(root);
   cout << "递归法：" << endl;
@@ -21,8 +19,7 @@ int main() {
        << node->right->left->val << node->right->right->val << endl;
 
   vector<int> nums2 = {1, 2, 3, 4, 5, 6, 7};
-  TreeNode *root2 = flipBinaryTree.initBTree(nums2, nums2.size());
-  cout << "头节点: " << root2->val << endl;
+  TreeNode *root2 = flipBinaryTree.createBTree(nums2, 0);
   //深度优先遍历
   TreeNode *node2 = flipBinaryTree.invertTree_depth(root2);
   cout << "深度优先遍历：" << endl;
@@ -32,8 +29,7 @@ int main() {
        << node2->right->left->val << node2->right->right->val << endl;
 
   vector<int> nums3 = {1, 2, 3, 4, 5, 6, 7};
-  TreeNode *root3 = flipBinaryTree.initBTree(nums3, nums3.size());
-  cout << "头节点: " << root3->val << endl;
+  TreeNode *root3 = flipBinaryTree.createBTree(nums3, 0);
   //广度优先遍历
   TreeNode *node3 = flipBinaryTree.invertTree_breadth(root3);
   cout << "广度优先遍历：" << endl;

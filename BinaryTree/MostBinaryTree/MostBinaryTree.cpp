@@ -14,7 +14,6 @@ TreeNode *MostBinaryTree::traversal(vector<int> &nums, int left, int right) {
       maxValueIndex = i;
   }
   TreeNode *root = new TreeNode(nums[maxValueIndex]);
-  cout << root->val << endl;
   //左闭右开
   root->left = traversal(nums, left, maxValueIndex);
   root->right = traversal(nums, maxValueIndex + 1, right);

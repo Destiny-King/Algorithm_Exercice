@@ -20,7 +20,7 @@ struct TreeNode {
 
 class MinDepthBinaryTree {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
 
   int minDepth(TreeNode *root);
 

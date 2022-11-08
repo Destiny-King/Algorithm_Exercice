@@ -19,7 +19,7 @@ struct TreeNode {
 
 class SequenceTraversal {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
   vector<vector<int>> levelOrder(TreeNode *root);
   void order(TreeNode *cur, vector<vector<int>> &result, int depth);
   vector<vector<int>> levelOrder_Recursive(TreeNode *root);

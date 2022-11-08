@@ -9,8 +9,7 @@ int main() {
   SumOfLeftLeaves sumOfLeftLeaves;
 
   vector<int> nums = {3, 9, 20, NULL, NULL, 15, 7};
-  TreeNode *root = sumOfLeftLeaves.initBTree(nums, nums.size());
-  cout << "头节点: " << root->val << endl;
+  TreeNode *root = sumOfLeftLeaves.createBTree(nums, 0);
 
   //递归法
   cout << "递归法: " << endl;

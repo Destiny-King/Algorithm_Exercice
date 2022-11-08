@@ -22,7 +22,7 @@ class FindBottomLeftValue {
 public:
   int maxDepth = INT_MIN;
   int result;
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
   void traversal(TreeNode *root, int depth);
   int findBottomLeftValue(TreeNode *root);
   int findBottomLeftValue_Iterative(TreeNode *root);

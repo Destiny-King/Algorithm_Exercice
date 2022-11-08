@@ -4,34 +4,13 @@
 
 #include "RecursiveTraversal.h"
 
-TreeNode *RecursiveTraversal::initBTree(vector<int> &nums, int size) {
-  if (size < 1) {
+TreeNode *RecursiveTraversal::createBTree(vector<int> &nums, int index) {
+  if (index > nums.size() - 1 || nums[index] == 0)
     return NULL;
-  }
-  //动态申请size大小的指针数组
-  TreeNode **nodes = new TreeNode *[size];
-  //将int数据转换为TreeNode节点
-  for (int i = 0; i < size; i++) {
-    if (nums[i] == 0) {
-      nodes[i] = NULL;
-    } else {
-      nodes[i] = new TreeNode(nums[i]);
-    }
-  }
-  queue<TreeNode *> nodeQueue;
-  nodeQueue.push(nodes[0]);
-
-  TreeNode *node;
-  int index = 1;
-  while (index < size) {
-    node = nodeQueue.front();
-    nodeQueue.pop();
-    nodeQueue.push(nodes[index++]);
-    node->left = nodeQueue.back();
-    nodeQueue.push(nodes[index++]);
-    node->right = nodeQueue.back();
-  }
-  return nodes[0];
+  TreeNode *node = new TreeNode(nums[index]);
+  node->left = createBTree(nums, 2 * index + 1);
+  node->right = createBTree(nums, 2 * index + 2);
+  return node;
 }
 
 void RecursiveTraversal::traversal_Pre(TreeNode *cur, vector<int> &vec) {

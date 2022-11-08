@@ -7,8 +7,6 @@
 
 #include <iostream>
 using namespace std;
-#include <queue>
-#include <stack>
 #include <vector>
 
 struct TreeNode {
@@ -23,7 +21,7 @@ private:
   void traversal(TreeNode *cur, vector<int> &path, vector<string> &result);
 
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
   vector<string> binaryTreePaths(TreeNode *root);
   vector<string> binaryTreePaths_Interation(TreeNode *root);
 };

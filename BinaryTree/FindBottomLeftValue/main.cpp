@@ -9,7 +9,7 @@ int main() {
   FindBottomLeftValue findBottomLeftValue;
 
   vector<int> nums = {1, 2, 3, 4, 5, 6, 7};
-  TreeNode *root = findBottomLeftValue.initBTree(nums, nums.size());
+  TreeNode *root = findBottomLeftValue.createBTree(nums, 0);
   cout << "头节点: " << root->val << endl;
 
   //递归法

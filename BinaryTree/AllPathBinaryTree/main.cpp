@@ -9,7 +9,7 @@ int main() {
   AllPathBinaryTree allPathBinaryTree;
 
   vector<int> nums = {1, 2, 3, NULL, 5};
-  TreeNode *root = allPathBinaryTree.initBTree(nums, nums.size());
+  TreeNode *root = allPathBinaryTree.createBTree(nums, 0);
   cout << "头节点: " << root->val << endl;
 
   //递归法

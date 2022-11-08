@@ -9,7 +9,7 @@ int main() {
   MaxDepthBinaryTree maxDepthBinaryTree;
 
   vector<int> nums = {1, 2, 2, 3, 4, 4, 3};
-  TreeNode *root = maxDepthBinaryTree.initBTree(nums, nums.size());
+  TreeNode *root = maxDepthBinaryTree.createBTree(nums, 0);
 
   int ret = maxDepthBinaryTree.maxdepth(root);
   cout << ret << endl;

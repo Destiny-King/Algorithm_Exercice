@@ -9,7 +9,7 @@ int main() {
   MinDepthBinaryTree minDepthBinaryTree;
 
   vector<int> nums = {3, 9, 20, NULL, NULL, 15, 7};
-  TreeNode *root = minDepthBinaryTree.initBTree(nums, nums.size());
+  TreeNode *root = minDepthBinaryTree.createBTree(nums, 0);
 
   int ret = minDepthBinaryTree.minDepth(root);
   cout << ret << endl;

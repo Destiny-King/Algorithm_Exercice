@@ -20,7 +20,7 @@ struct TreeNode {
 
 class SymmetricBinaryTree {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
   bool compare(TreeNode *left, TreeNode *right);
   bool isSymmetric(TreeNode *root);
   bool isSymmetric_Queue(TreeNode *root);

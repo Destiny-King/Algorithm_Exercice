@@ -19,7 +19,7 @@ struct TreeNode {
 
 class IterationTraversal {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
 
   vector<int> preorderTraversal(TreeNode *root); //前序遍历
 

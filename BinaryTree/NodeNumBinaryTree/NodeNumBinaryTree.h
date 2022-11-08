@@ -19,7 +19,7 @@ struct TreeNode {
 
 class NodeNumBinaryTree {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
   int countNode(TreeNode *root);
   int countNode_Iteration(TreeNode *root);
   int countNodes(TreeNode *root); //完全二叉树递归

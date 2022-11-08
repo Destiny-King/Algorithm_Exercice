@@ -19,7 +19,7 @@ struct TreeNode {
 
 class RecursiveTraversal {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
 
   void traversal_Pre(TreeNode *cur, vector<int> &vec); //前序遍历
 

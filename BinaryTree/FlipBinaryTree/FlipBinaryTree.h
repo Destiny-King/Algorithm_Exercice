@@ -20,8 +20,8 @@ struct TreeNode {
 
 class FlipBinaryTree {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
-  TreeNode *invertTree(TreeNode *root);             //递归法
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
+  TreeNode *invertTree(TreeNode *root);                //递归法
   TreeNode *invertTree_depth(TreeNode *root);   //迭代法(深度优先遍历)
   TreeNode *invertTree_breadth(TreeNode *root); //层序遍历(广度优先遍历)
 };

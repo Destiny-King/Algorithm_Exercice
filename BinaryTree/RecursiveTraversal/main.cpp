@@ -9,7 +9,7 @@ int main() {
   RecursiveTraversal recursiveTraversal;
 
   vector<int> nums = {1, 2, 3};
-  TreeNode *root = recursiveTraversal.initBTree(nums, nums.size());
+  TreeNode *root = recursiveTraversal.createBTree(nums, 0);
 
   //前序遍历
   vector<int> preResult;

@@ -9,7 +9,7 @@ int main() {
   NodeNumBinaryTree nodeNumBinaryTree;
 
   vector<int> nums = {1, 2, 2, 3, 4, 4, 3};
-  TreeNode *root = nodeNumBinaryTree.initBTree(nums, nums.size());
+  TreeNode *root = nodeNumBinaryTree.createBTree(nums, 0);
 
   int ret = nodeNumBinaryTree.countNode(root);
   cout << ret << endl;

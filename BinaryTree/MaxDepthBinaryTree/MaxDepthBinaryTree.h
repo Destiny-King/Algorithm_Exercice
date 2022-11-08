@@ -20,9 +20,7 @@ struct TreeNode {
 
 class MaxDepthBinaryTree {
 public:
-  TreeNode *initBTree(vector<int> &nums, int size); //初始化二叉树
-
-  TreeNode *initNTree();
+  TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
 
   int maxdepth(TreeNode *root);
 
