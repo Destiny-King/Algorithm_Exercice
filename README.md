@@ -108,6 +108,10 @@
 
 6.14 最大二叉树：MostBinaryTree
 
+6.15 合并二叉树：MergeBinaryTree
+
+6.16 二叉搜索树中的搜索：BinarySearchTree
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
