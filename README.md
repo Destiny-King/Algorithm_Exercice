@@ -112,6 +112,10 @@
 
 6.16 二叉搜索树中的搜索：BinarySearchTree
 
+6.17 验证二叉搜索树：VerifyBST
+
+6.18 二叉搜索树的最小绝对差：MinAbsdiffBST
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
