@@ -3,4 +3,4 @@ project(RecallAlgorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(Subset2)
+add_subdirectory(IncreasingSubsequence)

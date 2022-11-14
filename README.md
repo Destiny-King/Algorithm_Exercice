@@ -134,6 +134,10 @@
 
 7.8 子集问题：Subset
 
+7.9 子集II：Subset2
+
+7.10 递增子序列：IncreasingSubsequence
+
 ### 8.贪心算法
 
 8.1 分发饼干：DistributionBiscuits
