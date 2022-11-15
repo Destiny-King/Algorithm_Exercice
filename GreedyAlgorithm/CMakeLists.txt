@@ -3,4 +3,4 @@ project(GreedyAlgorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(GasStation)
+add_subdirectory(LemonadeChange)

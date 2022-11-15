@@ -156,6 +156,10 @@
 
 8.8 加油站：GasStation
 
+8.9 分发糖果：GiveoutCandy
+
+8.10 柠檬水找零：LemonadeChange
+
 ### 9.动态规划
 
 9.1 斐波那契：Fibonacci
