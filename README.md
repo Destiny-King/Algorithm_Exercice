@@ -178,6 +178,10 @@
 
 9.8 0~1背包：BagProblem
 
+9.9 分割等和子集：DivideIsosumSubsets
+
+9.10 最后一块石头的重量II：WeightLastStone
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
