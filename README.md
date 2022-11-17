@@ -138,6 +138,10 @@
 
 7.10 递增子序列：IncreasingSubsequence
 
+7.11 全排列：AllPermute
+
+7.12 全排列II：AllPermute2
+
 ### 8.贪心算法
 
 8.1 分发饼干：DistributionBiscuits
