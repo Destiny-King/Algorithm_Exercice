@@ -164,6 +164,10 @@
 
 8.10 柠檬水找零：LemonadeChange
 
+8.11 根据身高重建队列：RebuildQueue
+
+8.12 用最少数量的箭引爆气球：FindMinArrowShots
+
 ### 9.动态规划
 
 9.1 斐波那契：Fibonacci
