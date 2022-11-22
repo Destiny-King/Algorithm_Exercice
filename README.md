@@ -190,6 +190,10 @@
 
 9.10 最后一块石头的重量II：WeightLastStone
 
+9.11 目标和：FindTargetSumWays
+
+9.12 一和零：FindMaxForm
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
