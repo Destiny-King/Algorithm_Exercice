@@ -116,6 +116,8 @@
 
 6.18 二叉搜索树的最小绝对差：MinAbsdiffBST
 
+6.19 二叉搜索树中的众数：FindMode
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
@@ -141,6 +143,8 @@
 7.11 全排列：AllPermute
 
 7.12 全排列II：AllPermute2
+
+7.13 重新安排行程：FindItinerary
 
 ### 8.贪心算法
 
