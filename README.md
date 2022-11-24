@@ -146,6 +146,10 @@
 
 7.13 重新安排行程：FindItinerary
 
+7.14 N皇后：SolveNQueens
+
+7.15 解数独：SolveSudoku
+
 ### 8.贪心算法
 
 8.1 分发饼干：DistributionBiscuits
