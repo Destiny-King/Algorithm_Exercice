@@ -176,6 +176,10 @@
 
 8.12 用最少数量的箭引爆气球：FindMinArrowShots
 
+8.13 无重叠区间：EraseOverlapIntervals
+
+8.14 划分字母区间：PartitionLabels
+
 ### 9.动态规划
 
 9.1 斐波那契：Fibonacci
