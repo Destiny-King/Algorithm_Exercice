@@ -180,6 +180,10 @@
 
 8.14 划分字母区间：PartitionLabels
 
+8.15 合并区间：Merge
+
+8.16 单调递增的数字：MonotoneIncreasingDigits
+
 ### 9.动态规划
 
 9.1 斐波那契：Fibonacci
