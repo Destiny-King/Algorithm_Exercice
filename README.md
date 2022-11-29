@@ -184,6 +184,10 @@
 
 8.16 单调递增的数字：MonotoneIncreasingDigits
 
+8.17 买卖股票的最佳时机含手续费：MaxProfit
+
+8.18 监控二叉树：MinCameraCover
+
 ### 9.动态规划
 
 9.1 斐波那契：Fibonacci
