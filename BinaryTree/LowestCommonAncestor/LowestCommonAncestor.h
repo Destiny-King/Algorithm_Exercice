@@ -22,6 +22,8 @@ class LowestCommonAncestor {
 public:
   TreeNode *createBTree(vector<int> &nums, int index); //初始化二叉树
   TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q);
+  TreeNode *lowestCommonAncestor_BST(TreeNode *root, TreeNode *p,
+                                     TreeNode *q); //二叉搜索树
 };
 
 #endif // BINARYTREE_LOWESTCOMMONANCESTOR_H
