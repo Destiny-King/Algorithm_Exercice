@@ -3,4 +3,4 @@ project(BinaryTree)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(DeleteNode)
+add_subdirectory(TrimBST)
