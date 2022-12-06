@@ -128,6 +128,8 @@
 
 6.24 将有序数组转换为二叉搜索树：SortedArrayToBST
 
+6.25 把二叉搜索树转换为累加树：ConvertBST
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
