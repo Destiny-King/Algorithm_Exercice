@@ -124,6 +124,10 @@
 
 6.22 删除二叉搜索树中的节点：DeleteNode
 
+6.23 修剪二叉搜索树：TrimBST
+
+6.24 将有序数组转换为二叉搜索树：SortedArrayToBST
+
 ### 7.回溯算法
 
 7.1 组合问题：Combination
