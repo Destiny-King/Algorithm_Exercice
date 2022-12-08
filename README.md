@@ -226,6 +226,10 @@
 
 9.12 一和零：FindMaxForm
 
+9.13 零钱兑换：Change
+
+9.14 组合总和IV：CombinationSum
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
