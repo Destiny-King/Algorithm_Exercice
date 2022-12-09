@@ -136,29 +136,21 @@
 
 7.3 电话号码的字母组合：CombinationPhoneNumbers
 
-7.4 组合总和：CombinationTotal2
+7.4 分割回文串：SplitPalindromeStr
 
-7.5 组合总和II：CombinationTotal3
+7.5 复原IP地址：RecoveryIpAddress
 
-7.6 分割回文串：SplitPalindromeStr
+7.6 子集问题：Subset
 
-7.7 复原IP地址：RecoveryIpAddress
+7.7 递增子序列：IncreasingSubsequence
 
-7.8 子集问题：Subset
+7.8 全排列：AllPermute
 
-7.9 子集II：Subset2
+7.9 重新安排行程：FindItinerary
 
-7.10 递增子序列：IncreasingSubsequence
+7.10 N皇后：SolveNQueens
 
-7.11 全排列：AllPermute
-
-7.12 全排列II：AllPermute2
-
-7.13 重新安排行程：FindItinerary
-
-7.14 N皇后：SolveNQueens
-
-7.15 解数独：SolveSudoku
+7.11 解数独：SolveSudoku
 
 ### 8.贪心算法
 
