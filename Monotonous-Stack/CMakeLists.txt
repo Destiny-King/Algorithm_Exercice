@@ -3,4 +3,4 @@ project(Monotonous-Stack)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(MaxRectangle)
+add_subdirectory(NextBiggerElement)

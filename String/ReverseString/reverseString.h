@@ -12,6 +12,7 @@ using namespace std;
 class ReverseString {
 public:
   void reverseString(vector<char> &s);
+  string reverseStr(string s, int k);
 };
 
 #endif // STRING_REVERSESTRING_H

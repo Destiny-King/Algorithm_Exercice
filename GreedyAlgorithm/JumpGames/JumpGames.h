@@ -12,6 +12,7 @@ using namespace std;
 class JumpGames {
 public:
   bool canJump(vector<int> &nums);
+  int jump(vector<int> &nums);
 };
 
 #endif // GREEDYALGORITHM_JUMPGAMES_H

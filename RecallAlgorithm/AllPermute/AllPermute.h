@@ -15,6 +15,9 @@ public:
   vector<int> path;
   void backtracking(vector<int> &nums, vector<bool> &used);
   vector<vector<int>> permute(vector<int> &nums);
+
+  void backtracking2(vector<int> &nums, vector<bool> &used);
+  vector<vector<int>> permuteUnique(vector<int> &nums);
 };
 
 #endif // RECALLALGORITHM_ALLPERMUTE_H

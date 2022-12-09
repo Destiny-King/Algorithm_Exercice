@@ -16,5 +16,12 @@ int main() {
   }
   cout << endl;
 
+  vector<int> nums = {1, 2, 1};
+  vector<int> ret2 = nextBiggerElement.nextGreaterElement2(nums);
+  for (int i = 0; i < ret2.size(); ++i) {
+    cout << ret2[i] << " ";
+  }
+  cout << endl;
+
   return 0;
 }

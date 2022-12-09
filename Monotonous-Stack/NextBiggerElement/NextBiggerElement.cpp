@@ -34,3 +34,19 @@ vector<int> NextBiggerElement::nextGreaterElement(vector<int> &nums1,
 
   return result;
 }
+
+vector<int> NextBiggerElement::nextGreaterElement2(vector<int> &nums) {
+  vector<int> result(nums.size(), -1);
+  if (nums.size() == 0)
+    return result;
+  //开始单调栈
+  stack<int> st;
+  for (int i = 0; i < nums.size() * 2; ++i) {
+    while (!st.empty() && nums[i % nums.size()] > nums[st.top()]) {
+      result[st.top()] = nums[i % nums.size()];
+      st.pop();
+    }
+    st.push(i % nums.size());
+  }
+  return result;
+}

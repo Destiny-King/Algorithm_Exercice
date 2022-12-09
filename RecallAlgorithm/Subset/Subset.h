@@ -14,9 +14,11 @@ private:
   vector<vector<int>> result;
   vector<int> path;
   void backtracking(vector<int> &nums, int startIndex);
+  void backtracking2(vector<int> &nums, int startIndex);
 
 public:
   vector<vector<int>> subsets(vector<int> &nums);
+  vector<vector<int>> subsetsWithDup(vector<int> &nums);
 };
 
 #endif // RECALLALGORITHM_SUBSET_H

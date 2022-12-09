@@ -12,6 +12,7 @@ using namespace std;
 class ClimbStairs {
 public:
   int climbStairs(int n);
+  int climbStairs2(int n);
 };
 
 #endif // DYNAMICPROGRAMMING_CLIMBSTAIRS_H

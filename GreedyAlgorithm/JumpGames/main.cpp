@@ -16,5 +16,8 @@ int main() {
     cout << "true" << endl;
   }
 
+  int ret = jumpGames.jump(nums);
+  cout << ret << endl;
+
   return 0;
 }

@@ -50,17 +50,15 @@
 
 4.1 反转字符串：ReverseString
 
-4.2 反转字符串2：ReverseString2
+4.2 替换空格：ReplaceSpace
 
-4.3 替换空格：ReplaceSpace
+4.3 翻转字符串里的单词：FlipString
 
-4.4 翻转字符串里的单词：FlipString
+4.4 左旋转字符串：LeftRotatedStr
 
-4.5 左旋转字符串：LeftRotatedStr
+4.5 实现strStr：strStr
 
-4.6 实现strStr：strStr
-
-4.7 重复的子字符串：RepeatedSubstringPattern
+4.6 重复的子字符串：RepeatedSubstringPattern
 
 ### 5.栈与队列
 
@@ -174,31 +172,29 @@
 
 8.5 跳跃游戏：JumpGames
 
-8.6 跳跃游戏II：JumpGames2
+8.6 K次取反后最大化的数组和：LargestSumAfterKNegations
 
-8.7 K次取反后最大化的数组和：LargestSumAfterKNegations
+8.7 加油站：GasStation
 
-8.8 加油站：GasStation
+8.8 分发糖果：GiveoutCandy
 
-8.9 分发糖果：GiveoutCandy
+8.9 柠檬水找零：LemonadeChange
 
-8.10 柠檬水找零：LemonadeChange
+8.10 根据身高重建队列：RebuildQueue
 
-8.11 根据身高重建队列：RebuildQueue
+8.11 用最少数量的箭引爆气球：FindMinArrowShots
 
-8.12 用最少数量的箭引爆气球：FindMinArrowShots
+8.12 无重叠区间：EraseOverlapIntervals
 
-8.13 无重叠区间：EraseOverlapIntervals
+8.13 划分字母区间：PartitionLabels
 
-8.14 划分字母区间：PartitionLabels
+8.14 合并区间：Merge
 
-8.15 合并区间：Merge
+8.15 单调递增的数字：MonotoneIncreasingDigits
 
-8.16 单调递增的数字：MonotoneIncreasingDigits
+8.16 买卖股票的最佳时机含手续费：MaxProfit
 
-8.17 买卖股票的最佳时机含手续费：MaxProfit
-
-8.18 监控二叉树：MinCameraCover
+8.17 监控二叉树：MinCameraCover
 
 ### 9.动态规划
 
@@ -236,9 +232,7 @@
 
 10.2 下一个更大元素：NextBiggerElement
 
-10.3 下一个更大元素2：NextBiggerElement2
+10.3 接雨水：PickupRain
 
-10.4 接雨水：PickupRain
-
-10.5 柱状图中最大的矩形：MaxRectangle
+10.4 柱状图中最大的矩形：MaxRectangle
 

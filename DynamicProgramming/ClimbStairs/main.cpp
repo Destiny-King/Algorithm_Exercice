@@ -12,5 +12,9 @@ int main() {
   int ret = climbStairs.climbStairs(N);
   cout << ret << endl;
 
+  int n = 10;
+  int ret2 = climbStairs.climbStairs2(n);
+  cout << ret2 << endl;
+
   return 0;
 }

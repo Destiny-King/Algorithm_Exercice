@@ -13,6 +13,7 @@ using namespace std;
 class NextBiggerElement {
 public:
   vector<int> nextGreaterElement(vector<int> &nums1, vector<int> &nums2);
+  vector<int> nextGreaterElement2(vector<int> &nums);
 };
 
 #endif // MONOTONOUS_STACK_NEXTBIGGERELEMENT_H

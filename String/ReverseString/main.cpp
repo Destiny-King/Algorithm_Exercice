@@ -16,5 +16,14 @@ int main() {
   }
   cout << endl;
 
+  string s2 = "abcdefg";
+  int k = 2;
+  string str = reverseString.reverseStr(s2, k);
+
+  for (int i = 0; i < str.size(); ++i) {
+    cout << str[i] << " ";
+  }
+  cout << endl;
+
   return 0;
 }

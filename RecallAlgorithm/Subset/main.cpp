@@ -17,5 +17,15 @@ int main() {
     cout << endl;
   }
 
+  vector<int> nums2 = {1, 2, 2};
+  vector<vector<int>> ret2 = subset.subsetsWithDup(nums2);
+  for (int i = 0; i < ret2.size(); ++i) {
+    cout << "[";
+    for (int j = 0; j < ret2[i].size(); ++j) {
+      cout << ret2[i][j] << " ";
+    }
+    cout << "]" << endl;
+  }
+
   return 0;
 }

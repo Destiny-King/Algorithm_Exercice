@@ -15,3 +15,17 @@ bool JumpGames::canJump(vector<int> &nums) {
   }
   return false;
 }
+
+int JumpGames::jump(vector<int> &nums) {
+  int curDistance = 0;
+  int ans = 0;
+  int nextDistance = 0;
+  for (int i = 0; i < nums.size() - 1; ++i) {
+    nextDistance = max(i + nums[i], nextDistance);
+    if (i == curDistance) {
+      curDistance = nextDistance;
+      ans++;
+    }
+  }
+  return ans;
+}
