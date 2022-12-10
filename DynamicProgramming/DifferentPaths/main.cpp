@@ -15,5 +15,9 @@ int main() {
   cout << ret << endl;
   cout << ret2 << endl;
 
+  vector<vector<int>> obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
+  int ret3 = differentPaths.uniquePathsWithObstacles(obstacleGrid);
+  cout << ret3 << endl;
+
   return 0;
 }

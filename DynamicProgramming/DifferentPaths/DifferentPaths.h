@@ -13,6 +13,7 @@ class DifferentPaths {
 public:
   int uniquePaths(int m, int n);
   int uniquePaths_NumberTheory(int m, int n);
+  int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid);
 };
 
 #endif // DYNAMICPROGRAMMING_DIFFERENTPATHS_H

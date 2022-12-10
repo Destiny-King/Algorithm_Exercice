@@ -13,5 +13,9 @@ int main() {
   int ret = change.change(amount, coins);
   cout << ret << endl;
 
+  int amount2 = 11;
+  int ret2 = change.coinChange(coins, amount2);
+  cout << ret2 << endl;
+
   return 0;
 }

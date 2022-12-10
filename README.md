@@ -132,7 +132,7 @@
 
 7.1 组合问题：Combination
 
-7.2 组合总和III：CombinationTotal
+7.2 组合总和：CombinationTotal
 
 7.3 电话号码的字母组合：CombinationPhoneNumbers
 
@@ -198,25 +198,23 @@
 
 9.4 不同路径：DifferentPaths
 
-9.5 不同路径II：UniquePathsWithObstacles
+9.5 整数拆分：IntegerSplit
 
-9.6 整数拆分：IntegerSplit
+9.6 不同的二叉搜索树：BinarySearchTree
 
-9.7 不同的二叉搜索树：BinarySearchTree
+9.7 0~1背包：BagProblem
 
-9.8 0~1背包：BagProblem
+9.8 分割等和子集：DivideIsosumSubsets
 
-9.9 分割等和子集：DivideIsosumSubsets
+9.9 最后一块石头的重量II：WeightLastStone
 
-9.10 最后一块石头的重量II：WeightLastStone
+9.10 目标和：FindTargetSumWays
 
-9.11 目标和：FindTargetSumWays
+9.11 一和零：FindMaxForm
 
-9.12 一和零：FindMaxForm
+9.12 零钱兑换：Change
 
-9.13 零钱兑换：Change
-
-9.14 组合总和IV：CombinationSum
+9.13 组合总和：CombinationSum
 
 ### 10.单调栈
 
