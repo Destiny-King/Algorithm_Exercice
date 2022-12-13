@@ -3,4 +3,4 @@ project(DynamicProgramming)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(NumSquares)
+add_subdirectory(WordBreak)

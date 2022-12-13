@@ -216,6 +216,10 @@
 
 9.13 组合总和：CombinationSum
 
+9.14 完全平方数：NumSquares
+
+9.15 单词拆分：WordBreak
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
