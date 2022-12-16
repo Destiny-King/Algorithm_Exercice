@@ -12,5 +12,8 @@ int main() {
   int ret = rob.rob(nums);
   cout << ret << endl;
 
+  int ret2 = rob.rob2(nums);
+  cout << ret2 << endl;
+
   return 0;
 }

@@ -12,6 +12,8 @@ using namespace std;
 class Rob {
 public:
   int rob(vector<int> &nums);
+  int rob2(vector<int> &nums);
+  int robRange(vector<int> &nums, int start, int end);
 };
 
 #endif // DYNAMICPROGRAMMING_ROB_H
