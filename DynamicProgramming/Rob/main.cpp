@@ -15,5 +15,10 @@ int main() {
   int ret2 = rob.rob2(nums);
   cout << ret2 << endl;
 
+  vector<int> nums2 = {3, 2, 3, NULL, 3, NULL, 1};
+  TreeNode *head = rob.createBTree(nums2, 0);
+  int ret3 = rob.rob3(head);
+  cout << ret3 << endl;
+
   return 0;
 }

@@ -39,3 +39,27 @@ int Rob::robRange(vector<int> &nums, int start, int end) {
   }
   return dp[end];
 }
+
+TreeNode *Rob::createBTree(vector<int> &nums, int index) {
+  if (index > nums.size() - 1 || nums[index] == 0)
+    return NULL;
+  TreeNode *node = new TreeNode(nums[index]);
+  node->left = createBTree(nums, 2 * index + 1);
+  node->right = createBTree(nums, 2 * index + 2);
+  return node;
+}
+
+vector<int> Rob::robTree(TreeNode *cur) {
+  if (cur == NULL)
+    return vector<int>{0, 0};
+  vector<int> left = robTree(cur->left);
+  vector<int> right = robTree(cur->right);
+  int val1 = cur->val + left[0] + right[0];
+  int val2 = max(left[0], left[1]) + max(right[0], right[1]);
+  return {val2, val1};
+}
+
+int Rob::rob3(TreeNode *root) {
+  vector<int> result = robTree(root);
+  return max(result[0], result[1]);
+}
