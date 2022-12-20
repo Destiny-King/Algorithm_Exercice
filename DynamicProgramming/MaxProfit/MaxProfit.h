@@ -12,6 +12,7 @@ using namespace std;
 class MaxProfit {
 public:
   int maxProfit(vector<int> &prices);
+  int maxProfit2(vector<int> &prices);
 };
 
 #endif // DYNAMICPROGRAMMING_MAXPROFIT_H

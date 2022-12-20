@@ -12,5 +12,8 @@ int main() {
   int ret = maxProfit.maxProfit(cost);
   cout << ret << endl;
 
+  int ret2 = maxProfit.maxProfit2(cost);
+  cout << ret2 << endl;
+
   return 0;
 }
