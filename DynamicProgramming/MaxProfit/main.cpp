@@ -18,5 +18,9 @@ int main() {
   int ret3 = maxProfit.maxProfit3(cost);
   cout << ret3 << endl;
 
+  int k = 2;
+  int ret4 = maxProfit.maxProfit4(k, cost);
+  cout << ret4 << endl;
+
   return 0;
 }

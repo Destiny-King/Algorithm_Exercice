@@ -14,6 +14,7 @@ public:
   int maxProfit(vector<int> &prices);
   int maxProfit2(vector<int> &prices);
   int maxProfit3(vector<int> &prices);
+  int maxProfit4(int k, vector<int> &prices);
 };
 
 #endif // DYNAMICPROGRAMMING_MAXPROFIT_H
