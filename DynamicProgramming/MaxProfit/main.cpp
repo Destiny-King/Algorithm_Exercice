@@ -8,7 +8,7 @@ int main() {
 
   MaxProfit maxProfit;
 
-  vector<int> cost = {3, 3, 5, 0, 0, 3, 1, 4};
+  vector<int> cost = {1, 2, 3, 0, 2};
   int ret = maxProfit.maxProfit(cost);
   cout << ret << endl;
 
@@ -21,6 +21,9 @@ int main() {
   int k = 2;
   int ret4 = maxProfit.maxProfit4(k, cost);
   cout << ret4 << endl;
+
+  int ret5 = maxProfit.maxProfit5(cost);
+  cout << ret5 << endl;
 
   return 0;
 }
