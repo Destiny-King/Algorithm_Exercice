@@ -12,6 +12,7 @@ using namespace std;
 class LengthOfLIS {
 public:
   int lengthOfLIS(vector<int> &nums);
+  int findLengthOfLCIS(vector<int> &nums);
 };
 
 #endif // DYNAMICPROGRAMMING_LENGTHOFLIS_H

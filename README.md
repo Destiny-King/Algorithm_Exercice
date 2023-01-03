@@ -224,6 +224,8 @@
 
 9.17 买卖股票的最佳时机：MaxProfit
 
+9.18 最长子序列：LengthOfLIS
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
