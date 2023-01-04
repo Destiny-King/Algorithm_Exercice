@@ -16,5 +16,10 @@ int main() {
   int ret2 = lengthOfLis.findLengthOfLCIS(nums2);
   cout << ret2 << endl;
 
+  vector<int> nums3 = {1, 2, 3, 2, 1};
+  vector<int> nums4 = {3, 2, 1, 4, 7};
+  int ret3 = lengthOfLis.findLength(nums3, nums4);
+  cout << ret3 << endl;
+
   return 0;
 }

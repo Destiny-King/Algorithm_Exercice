@@ -13,6 +13,7 @@ class LengthOfLIS {
 public:
   int lengthOfLIS(vector<int> &nums);
   int findLengthOfLCIS(vector<int> &nums);
+  int findLength(vector<int> &nums1, vector<int> &nums2);
 };
 
 #endif // DYNAMICPROGRAMMING_LENGTHOFLIS_H
