@@ -21,5 +21,10 @@ int main() {
   int ret3 = lengthOfLis.findLength(nums3, nums4);
   cout << ret3 << endl;
 
+  string text1 = "abcde";
+  string text2 = "ace";
+  int ret4 = lengthOfLis.longestCommonSubsequence(text1, text2);
+  cout << ret4 << endl;
+
   return 0;
 }
