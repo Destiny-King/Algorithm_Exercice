@@ -31,5 +31,9 @@ int main() {
 	int ret5 = lengthOfLis.maxUncrossedLines(A, B);
 	cout << ret5 << endl;
 
+	vector<int> nums6 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+	int ret6 = lengthOfLis.maxSubArray(nums6);
+	cout << ret6 << endl;
+
 	return 0;
 }

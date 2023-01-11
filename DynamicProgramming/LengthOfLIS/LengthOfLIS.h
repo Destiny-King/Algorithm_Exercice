@@ -22,6 +22,8 @@ public:
 	int longestCommonSubsequence(string text1, string text2);
 
 	int maxUncrossedLines(vector<int> &A, vector<int> &B);
+
+	int maxSubArray(vector<int> &nums);
 };
 
 #endif // DYNAMICPROGRAMMING_LENGTHOFLIS_H
