@@ -24,6 +24,8 @@ public:
 	int maxUncrossedLines(vector<int> &A, vector<int> &B);
 
 	int maxSubArray(vector<int> &nums);
+
+	bool isSubsequence(string s, string t);
 };
 
 #endif // DYNAMICPROGRAMMING_LENGTHOFLIS_H

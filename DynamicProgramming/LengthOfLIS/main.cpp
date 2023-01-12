@@ -35,5 +35,10 @@ int main() {
 	int ret6 = lengthOfLis.maxSubArray(nums6);
 	cout << ret6 << endl;
 
+	string s = "abc";
+	string t = "ahbgdc";
+	bool ret7 = lengthOfLis.isSubsequence(s, t);
+	cout << ret7 << endl;
+
 	return 0;
 }
