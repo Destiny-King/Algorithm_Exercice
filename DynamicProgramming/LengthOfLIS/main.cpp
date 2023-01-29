@@ -40,5 +40,10 @@ int main() {
 	bool ret7 = lengthOfLis.isSubsequence(s, t);
 	cout << ret7 << endl;
 
+	string s2 = "babgbag";
+	string t2 = "bag";
+	int ret8 = lengthOfLis.numDistinct(s2, t2);
+	cout << ret8 << endl;
+
 	return 0;
 }

@@ -26,6 +26,8 @@ public:
 	int maxSubArray(vector<int> &nums);
 
 	bool isSubsequence(string s, string t);
+
+	int numDistinct(string s, string t);
 };
 
 #endif // DYNAMICPROGRAMMING_LENGTHOFLIS_H
