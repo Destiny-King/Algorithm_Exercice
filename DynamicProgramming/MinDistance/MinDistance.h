@@ -14,6 +14,8 @@ using namespace std;
 class MinDistance {
 public:
 	int minDistance(string word1, string word2);
+
+	int minDistance2(string word1, string word2);
 };
 
 

@@ -226,6 +226,8 @@
 
 9.18 最长子序列：LengthOfLIS
 
+9.19 两个字符串的删除操作：MinDistance
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature
