@@ -7,9 +7,12 @@ int main() {
 	system("chcp 65001");
 
 	CountSubstrings countSubstrings;
-	string s = "aaa";
+	string s = "cbbd";
 	int ret = countSubstrings.countSubstrings(s);
 	cout << ret << endl;
+
+	int ret2 = countSubstrings.longestPalindromeSubseq(s);
+	cout << ret2 << endl;
 
 	return 0;
 }

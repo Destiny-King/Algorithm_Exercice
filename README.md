@@ -228,6 +228,8 @@
 
 9.19 两个字符串的删除操作：MinDistance
 
+9.20 回文子串：CountSubstrings
+
 ### 10.单调栈
 
 10.1 每日温度：DailyTemperature

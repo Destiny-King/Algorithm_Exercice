@@ -12,7 +12,9 @@ using namespace std;
 
 class CountSubstrings {
 public:
-	int countSubstrings(string s);
+	int countSubstrings(string s);//回文子串
+
+	int longestPalindromeSubseq(string s); //最长回文子序列
 };
 
 
